@@ -1,6 +1,6 @@
 # Alien-Game
 
 Collaborators:  
-Jayden Spurgiasz  
-Arjun Batra
-Devah Schaefers
+- Jayden Spurgiasz
+- Arjun Batra
+- Devah Schaefers
