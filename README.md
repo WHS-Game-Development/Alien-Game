@@ -1,4 +1,4 @@
 # Alien-Game
 
-Collaborators:
+Collaborators:  
 Jayden Spurgiasz
