@@ -1,4 +1,5 @@
 # Alien-Game
 
-Collaborators:  
+Collaborators:
 Jayden Spurgiasz
+Arjun Batra
