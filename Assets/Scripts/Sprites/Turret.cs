@@ -37,7 +37,7 @@ public class Turret : MonoBehaviour {
 		// add velocity to the projectile
         projectileClone.GetComponent<Rigidbody2D>().AddForce(transform.right * projectileSpeed);
 
-		// Destroy the bullet after 2 seconds
+		// Destroy the bullet after 3 seconds
 		Destroy(projectileClone, 3.0f);
 	}
 	

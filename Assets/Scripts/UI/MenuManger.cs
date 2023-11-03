@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
 
-public class MainMenu : Singleton<MainMenu> {
+public class MenuManger : Singleton<MenuManger> {
 	[SerializeField] public GameObject MainMenuUI;
 	[SerializeField] public GameObject LevelSelectUI;
 	[SerializeField] public GameObject OptionsUI;
@@ -15,10 +15,10 @@ public class MainMenu : Singleton<MainMenu> {
 	// Use this for initialization
 	void Start () 
 	{
-	MainMenuUI.SetActive(true);
-	LevelSelectUI.SetActive(false);
-	OptionsUI.SetActive(false);
-	}
+        MainMenuUI.SetActive(true);
+        LevelSelectUI.SetActive(false);
+        OptionsUI.SetActive(false);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -55,11 +55,9 @@ public class MainMenu : Singleton<MainMenu> {
 		SceneManager.LoadScene("MainMenu");
 	}
 	
-	public void LoadLevel() {
-		// get the name of the button 
-	//	SavedStatesManager.Level = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TextMeshProUGUI>().text.ToString();
-	
-	//	SceneManager.LoadScene("Level1");
+    //make more generic to load any level later
+	public void LoadLevel1() {
+		SceneManager.LoadScene("Level1");
 	}
 	
 
