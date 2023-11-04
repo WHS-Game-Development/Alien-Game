@@ -26,7 +26,7 @@ public class GameManager : Singleton<GameManager> {
 	
 	// Use this for initialization
 	void Start () {
-		score =0;
+		score = 0;
 		isLevelCleared = false;
 		levelCompleteUI.SetActive( false);
 		gameMenuUI.SetActive( isGameMenuOpen );
